@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31684ADB1E895F44006F472C /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31684ADA1E895F44006F472C /* PostHeaderCell.swift */; };
+		31684ADD1E895F7E006F472C /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31684ADC1E895F7E006F472C /* PostCell.swift */; };
+		31684ADF1E8963A0006F472C /* NewsFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31684ADE1E8963A0006F472C /* NewsFeedTableViewController.swift */; };
 		527BDDDA1E6A812100A1075D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BDDD91E6A812100A1075D /* AppDelegate.swift */; };
 		527BDDDF1E6A812100A1075D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527BDDDD1E6A812100A1075D /* Main.storyboard */; };
 		527BDDE11E6A812100A1075D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527BDDE01E6A812100A1075D /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31684ADA1E895F44006F472C /* PostHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
+		31684ADC1E895F7E006F472C /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		31684ADE1E8963A0006F472C /* NewsFeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedTableViewController.swift; sourceTree = "<group>"; };
 		527BDDD61E6A812100A1075D /* InstagramUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527BDDD91E6A812100A1075D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		527BDDDE1E6A812100A1075D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,6 +86,7 @@
 		527BDDF61E6A88DA00A1075D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				31684ADE1E8963A0006F472C /* NewsFeedTableViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -87,6 +94,8 @@
 		527BDDF71E6A88E000A1075D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				31684ADA1E895F44006F472C /* PostHeaderCell.swift */,
+				31684ADC1E895F7E006F472C /* PostCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -123,7 +132,7 @@
 				TargetAttributes = {
 					527BDDD51E6A812100A1075D = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 593ZXM85A3;
+						DevelopmentTeam = LP8V9JUWY7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -166,7 +175,10 @@
 			files = (
 				527BDDF41E6A82BE00A1075D /* Post.swift in Sources */,
 				527BDDF21E6A82A500A1075D /* User.swift in Sources */,
+				31684ADB1E895F44006F472C /* PostHeaderCell.swift in Sources */,
 				527BDDDA1E6A812100A1075D /* AppDelegate.swift in Sources */,
+				31684ADF1E8963A0006F472C /* NewsFeedTableViewController.swift in Sources */,
+				31684ADD1E895F7E006F472C /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 593ZXM85A3;
+				DEVELOPMENT_TEAM = LP8V9JUWY7;
 				INFOPLIST_FILE = InstagramUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.ductran.InstagramUI;
@@ -302,7 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 593ZXM85A3;
+				DEVELOPMENT_TEAM = LP8V9JUWY7;
 				INFOPLIST_FILE = InstagramUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.ductran.InstagramUI;
